@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import LoginHome from '@/pages/home/LoginHome'
 
 Vue.use(Router)
 
@@ -8,8 +8,11 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Login-Home',
+      component: LoginHome,
+      meta: {
+        title: '登录页面'
+      }
     }
   ]
 })
