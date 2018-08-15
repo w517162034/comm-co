@@ -15,9 +15,12 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 15px;
   font: inherit;
   vertical-align: baseline;
+}
+div {
+  display: block;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -25,6 +28,8 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+  color: #1a1a1a;
   line-height: 1;
 }
 ol, ul {
